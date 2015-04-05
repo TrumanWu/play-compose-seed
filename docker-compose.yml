@@ -1,4 +1,4 @@
-play-compose-seed:
+seed:
   build: .
   ports:
    - "9000:9000"
