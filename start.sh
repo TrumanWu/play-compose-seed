@@ -5,4 +5,4 @@ activator clean
 activator dist
 
 # docker compose start-up
-docker-compose up
+docker-compose up -d
