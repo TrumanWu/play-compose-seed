@@ -1,7 +1,0 @@
-play-compose-seed -- the seed for the integration of Play! + MySQL + Docker Compose
-
-
-This is your new Play application
-=================================
-
-This file will be packaged with your application, when using `activator dist`.

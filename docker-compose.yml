@@ -1,0 +1,11 @@
+play-compose-seed:
+  build: .
+  ports:
+   - "9000:9000"
+  links:
+   - db
+db:
+  image: mysql
+  environment:
+   MYSQL_ROOT_PASSWORD: 123456
+   MYSQL_DATABASE: play_compose_seed
